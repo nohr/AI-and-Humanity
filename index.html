@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AI and Humanity</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styles/vhs.css">
+      <link rel="stylesheet" href="styles/colortext.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+      <script src="sketches/p5.min.js"></script>
+      <script src="sketches/sketch1.js"></script>
+      <script>
+         $('.txt').html(function(i, html) {
+         var chars = $.trim(html).split("");
+         
+         return '<span>' + chars.join('</span><span>') + '</span>';
+         });
+      </script>
+   </head>
+   <body>
+      <header id="hero">
+         <h1 style="position: fixed;" class="vhs">AI and Humanity</h1>
+         <div>
+            <h2 class="main-header">
+               <span class="txt anim-text-flow">Artificial Intelligence</span><br> <span style="font-size: 18px;">for a positive impact</span>
+            </h2>
+         </div>
+      </header>
+      <section>
+         <h2 style="padding-left: 880px">Next Generation Disaster Response</h2>
+         <div class="container">
+            <div class="left">
+               <div id="sketch1"></div>
+            </div>
+            <div class="right">
+               <p>California saw major destruction in 2017 due to the onslaught of wildfires. More than 1 million acres worth of land was reported burned in wildfires that claimed the lives of 85 people with 249 people listed as missing. Due to the threats of climate change, more and more companies are now embracing artificial intelligence to fight disasters with algorithms. They warn us in a timely manner with enough room to organize ourselves in the face of an impending disaster and minimize loss. - Interesting Engineering <a href="https://interestingengineering.com/7-ways-ai-will-help-humanity-not-harm-it">Link</a></p>
+            </div>
+         </div>
+      </section>
+      <section>
+         <h2 style="padding-left: 340px">automating the routine</h2>
+         <div class="container">
+            <div class="left">
+               <p>Artificial Intelligence can also be considered a boon to humanity given the fact that it liberates humans and allows them to perform tasks in which they excel. While we are capable of logic and reason, we are also wonderfully creative. When machines automate the mundane and routine tasks, we will have more time, energy, and attention for the so-called “right-brain” thinking that machines are currently not good at, such as holistic thinking, empathy, creativity, and musicality. - Interesting Engineering <a href="https://interestingengineering.com/7-ways-ai-will-help-humanity-not-harm-it">Link</a></p>
+            </div>
+            <div class="right">
+               <img src="img/automation.jpeg" height="400px" alt="Tesla factory">
+                <a href="https://www.bloomberg.com/news/features/2018-06-08/tesla-model-3-photos-of-elon-musk-s-factory-in-fremont">Source</a>
+            </div>
+         </div>
+      </section>
+      <section>
+         <h2 style="padding-left: 920px; color: #000000;">understanding each other better</h2>
+         <div class="container">
+            <div class="left">
+               <img src="img/chat.jpg" width="500px" alt="vrchat">
+                <a href="https://alsurvive.com/2018/09/08/is-vrchat-still-an-annoying-meme-hellscape/">Source</a>
+            </div>
+            <div class="right">
+               <p style="color: #000000;">Two Cambridge-based companies, Affectiva and Brain Power, have built applications designed to help those with autism recognize, with the use of simplified emojis, the emotional state of the people around them so that they can modulate their behavior appropriately. Similarly,
+                  The Chinese company, Baidu’s STACL system is helping us understand each other by generating multiple predictions for how each sentence will end as the speaker starts speaking. Machine learning is helping us understand each other better than ever.
+                  - Andreessen Horowitz <a href="https://a16z.com/2019/02/22/humanity-ai-better-together/">Link</a>
+               </p>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>

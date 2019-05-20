@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 6000px; /* Used to enable scrolling */
+  background: linear-gradient(180deg, #000000 0%,#000000 35%, #ffffff 100%);
+}
+h1 {
+    font-family: sans-serif;
+    margin-left: 20px;
+    top: 20px;
+    z-index: 9999;
+}
+header {
+    background-image: url(img/header-img.jpg);
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100vh;
+}
+.main-header {
+  font-family: 'Ubuntu';
+  padding: 350px 0px 0px;
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-size: 28px;
+}
+#header-text {
+    animation: text-shadow 1.5s ease-in-out infinite;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+section {
+    padding: 400px 0;
+    font-family: 'Ubuntu';
+  letter-spacing: 0.2em;
+  line-height: 2;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+h2 {
+ font-family: 'Ubuntu';
+  padding: 300px 0px 0px;
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 2;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-size: 13px;
+}
+p {
+    font-size: 20;
+    color: #ffffff;
+    text-indent: 50px;
+}
